@@ -1,7 +1,32 @@
 {
     "scripts": {
-    "test-watcher": "jest --watch *.js",
-    "test": "jest",
-    "setup": "./setup.sh"
+        "test-watcher": "jest --watch *.js",
+        "test": "jest",
+        "setup": "./setup.sh"
+    },
+    "name": "odin-hashmap",
+    "version": "1.0.0",
+    "description": "This is a fresh clone from the template. Before writing any code",
+    "main": "babel.config.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/topSimpa/odin-hashmap.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/topSimpa/odin-hashmap/issues"
+    },
+    "homepage": "https://github.com/topSimpa/odin-hashmap#readme",
+    "devDependencies": {
+        "@eslint/js": "^10.0.1",
+        "@eslint/json": "^2.1.1",
+        "@eslint/markdown": "^8.0.3",
+        "eslint": "^10.14.0",
+        "globals": "^17.13.0",
+        "jest": "^30.5.2",
+        "prettier": "^3.9.10"
     }
 }
