@@ -21,6 +21,7 @@
     },
     "homepage": "https://github.com/topSimpa/odin-hashmap#readme",
     "devDependencies": {
+        "@babel/preset-env": "^7.29.7",
         "@eslint/js": "^10.0.1",
         "@eslint/json": "^2.1.1",
         "@eslint/markdown": "^8.0.3",
